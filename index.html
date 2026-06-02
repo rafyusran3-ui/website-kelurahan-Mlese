@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Kelurahan Mlese | Maju, Mandiri, Sejahtera</title>
+<!-- Google Fonts + Font Awesome -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="modern-header">
+<div class="logo">
+<img src="gambar/logo-mlese.png" alt="Logo Mlese">
+<h2>Kelurahan Mlese</h2>
+</div>
+<nav>
+<a href="index.html" class="nav-link">Beranda</a>
+<a href="profil.html" class="nav-link">Profil</a>
+<a href="kegiatan.html" class="nav-link">Kegiatan</a>
+</nav>
+<div class="hamburger" id="hamburger">
+<i class="fas fa-bars"></i>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-overlay"></div>
+<img src="gambar/banner.jpg" alt="Banner Mlese" class="hero-bg">
+<div class="hero-text animate-hero">
+<h1>Selamat Datang</h1>
+<p>Website Resmi Kelurahan Mlese</p>
+<button class="btn-primary" onclick="salam()">Lihat Informasi <i class="fas fa-arrow-right"></i></button>
+</div>
+</section>
+
+<section class="sambutan scroll-reveal">
+<div class="container">
+<h2><span class="accent-border">Selamat Datang</span> di Kelurahan Mlese</h2>
+<p>Website ini menyediakan informasi mengenai profil dan kegiatan Kelurahan Mlese. Kami berkomitmen memberikan pelayanan terbaik untuk seluruh warga.</p>
+</div>
+</section>
+
+<section class="layanan-modern scroll-reveal">
+
+    <div class="container">
+
+        <div class="section-header">
+            <h3>Layanan & Program Unggulan</h3>
+            <p>Solusi terpadu untuk masyarakat modern</p>
+        </div>
+
+        <!-- ADMINISTRASI CEPAT -->
+        <div class="layanan-card">
+
+            <div class="card-icon">
+                <i class="fas fa-file-signature"></i>
+            </div>
+
+            <h4>Administrasi Cepat</h4>
+
+            <p>Download surat yang dibutuhkan dengan cepat.</p>
+
+            <div class="surat-list">
+
+                <a href="surat/pengantar.pdf" download class="surat-btn">
+                    Surat Pengantar SKCK
+                </a>
+
+                <a href="surat/domisili.pdf" download class="surat-btn">
+                    Surat Domisili
+                </a>
+
+                <a href="surat/usaha.pdf" download class="surat-btn">
+                    Surat Keterangan Usaha
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- UMKM & LINGKUNGAN -->
+        <div class="program-grid">
+
+            <div class="program-card">
+
+                <img src="gambar/umkm.png" alt="UMKM">
+
+                <div class="program-content">
+                    <h2>Pemberdayaan UMKM</h2>
+
+                    <p>
+                        Program pelatihan, pendampingan usaha,
+                        pemasaran digital dan pengembangan ekonomi
+                        masyarakat Kelurahan Mlese.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="program-card">
+
+                <img src="gambar/lingkungan.jpg" alt="Lingkungan Hijau">
+
+                <div class="program-content">
+                    <h2>Lingkungan Hijau</h2>
+
+                    <p>
+                        Program penghijauan, kebersihan lingkungan,
+                        pengelolaan sampah dan pelestarian alam
+                        menuju Mlese yang lebih asri.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="modern-footer">
+<div class="footer-container">
+<div class="footer-col">
+<img src="gambar/logo-mlese.png" alt="Logo" class="footer-logo">
+<p>Melayani dengan hati, membangun bersama untuk masa depan yang lebih baik.</p>
+<div class="social-icons">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h4>Kontak Kami</h4>
+<p><i class="fas fa-map-marker-alt"></i> Jl. Kenanga No. 45, Mlese, Kec. Gamping</p>
+<p><i class="fas fa-phone-alt"></i> (0274) 1234567</p>
+<p><i class="fas fa-envelope"></i> kelurahan@mlese.go.id</p>
+</div>
+<div class="footer-col">
+<h4>Jam Operasional</h4>
+<p>Senin - Kamis : 07.30 - 15.30</p>
+<p>Jumat : 07.30 - 14.30</p>
+<p>Sabtu-Minggu : Tutup</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; <span id="currentYear"></span> Kelurahan Mlese. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
